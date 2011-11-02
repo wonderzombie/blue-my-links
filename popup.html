@@ -1,0 +1,12 @@
+<style>
+
+</style>
+<script>
+
+	function changeLinkColors(e) {
+		window.console.log('clicked');
+		var css = 'a { color: #00c !important; }';
+		chrome.tabs.insertCSS(null, {code: css});				
+	}
+</script>
+<button onclick="changeLinkColors(this)" style='width: 100px'>Blue my links!</button>

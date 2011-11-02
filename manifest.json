@@ -1,0 +1,14 @@
+{
+  "name": "Blue my links!",
+  "version": "1.0",
+  "description": "Turns links on any google.com website (esp. new Reader) blue.",
+  "browser_action": {
+    "default_icon": "icon.png",
+		"popup": "popup.html"
+  },
+  "permissions": [
+		"tabs",
+    "https://www.google.com/*",
+    "http://www.google.com/*"
+  ]
+}
