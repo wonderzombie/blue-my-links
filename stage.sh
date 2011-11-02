@@ -1,5 +1,5 @@
 #!/bin/sh
 
-DEST=./staging/
+DEST=./blue-my-links/
 
-cp manifest.json icon.png popup.html $DEST
+cp manifest.json Refresh.png background.html background.js $DEST
